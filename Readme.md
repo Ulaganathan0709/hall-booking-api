@@ -22,12 +22,13 @@ This is a simple Node.js API for managing room bookings in a hall. The API allow
 
 ## API Endpoints
 
-**Rooms**
+-Rooms
 
-** Create Room **
-** Method:** `POST`
-** Endpoints:** `/api/rooms`
-** Example Request:**
+- Create Room 
+- Method: `POST`
+- Endpoints: `/api/rooms`
+- URL: `https://hall-booking-k3em.onrender.com/api/rooms`
+- Example Request:
 ```
 {
   "numberOfSeats": 100,
@@ -35,8 +36,8 @@ This is a simple Node.js API for managing room bookings in a hall. The API allow
   "pricePerHour": 1500
 }
 ```
-** Example Response:**
-**Status:** `201 Created`
+- Example Response:
+- Status:** `201 Created`
 ```
 {
   "id": 1,
@@ -46,11 +47,12 @@ This is a simple Node.js API for managing room bookings in a hall. The API allow
 }
 ```
 
-**Get All Rooms**
-**Method:** `GET`
-**Endpoint:** `/api/rooms`
-**Example Response:**
-**Status:** `200 OK`
+- Get All Rooms 
+- Method: `GET`
+- Endpoint: `/api/rooms`
+- URL: `https://hall-booking-k3em.onrender.com/api/rooms`
+- Example Response:
+- Status: `200 OK`
 ```
 [
   {
@@ -67,11 +69,12 @@ This is a simple Node.js API for managing room bookings in a hall. The API allow
   }
 ]
 ```
-**Bookings**
-**Book a Room**
-**Method:** `POST`
-**Endpoint:** `/api/bookings`
-**Example Request:** 
+- Bookings
+- Book a Room
+- Method: `POST`
+- Endpoint: `/api/bookings`
+- URL: `https://hall-booking-k3em.onrender.com/api/bookings`
+- Example Request:
 ```
 {
   "customerName": "Jane Doe",
@@ -81,8 +84,8 @@ This is a simple Node.js API for managing room bookings in a hall. The API allow
   "roomId": 1
 }
 ```
-**Example Response:**
-**Status:** `201 Created`
+- Example Response:
+- Status: `201 Created`
 
 ```
 {
@@ -95,11 +98,12 @@ This is a simple Node.js API for managing room bookings in a hall. The API allow
 }
 
 ```
-**Get All Bookings**
-**Method:** `GET`
-**Endpoint:** `/api/bookings`
-**Example Response** 
-**Status:** `200 OK`
+- Get All Bookings
+- Method: `GET`
+- Endpoint: `/api/bookings`
+- URL: `https://hall-booking-k3em.onrender.com/api/bookings`
+- Example Response
+- Status: `200 OK`
 
 ```
 [
